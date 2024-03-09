@@ -40,7 +40,7 @@ public class Student_grade_calculator{
             totalMarks += marks;
         }
          double averageMarks = (double)  totalMarks / numStudents ;
-         System.out.printf("The average marks of the studensts is : %.2f%n" , averageMarks);
+         System.out.printf("The average marks of the students is : %.2f%n" , averageMarks);
 
          System.out.println("The grades of the students are : ");
          for(Integer marks : gradeMap.keySet()){

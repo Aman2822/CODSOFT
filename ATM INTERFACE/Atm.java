@@ -20,7 +20,7 @@ public class Atm {
         public void withdraw(int amount){
             if(amount > 0 && amount < balance ){
                 balance -= amount;
-                System.out.println("The remaining balance" + balance );
+                System.out.println("The remaining balance : " + balance );
             }
             else if(amount >=balance){
                 System.out.println("Insufficient balance");
@@ -51,7 +51,7 @@ public class Atm {
                 account.withdraw(amount);
             }
             else if(option.equalsIgnoreCase("b")){
-                System.out.println("Current Balance:" + account.getbalance());
+                System.out.println("Current Balance: " + account.getbalance());
             }
             else{
                 System.out.println("Invalid option");
